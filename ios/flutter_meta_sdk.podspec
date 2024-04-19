@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
   s.static_framework = true
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '14.1.0'
-  s.dependency 'FBSDKCoreKit_Basics', '14.1.0'
-  s.dependency 'FBAEMKit', '14.1.0'
-  s.dependency 'FBAudienceNetwork', '6.14.0'
-  s.platform = :ios, '10.0'
+  s.dependency 'FBSDKCoreKit', '17.0.0'
+  s.dependency 'FBSDKCoreKit_Basics', '17.0.0'
+  s.dependency 'FBAEMKit', '17.0.0'
+  s.dependency 'FBAudienceNetwork', '6.15.0'
+  s.platform = :ios, '13.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
